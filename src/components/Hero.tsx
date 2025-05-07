@@ -59,15 +59,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        
-        {/* Fixed scroll down arrow with improved styling */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <a 
-            href="#about" 
-            className="bg-white hover:bg-gray-100 p-4 rounded-full shadow-md flex items-center justify-center transition-colors duration-300"
-            aria-label="Scroll to About section"
-          >
-            <ArrowDown className="text-primary" size={20} />
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <a href="#about" className="bg-white p-3 rounded-full shadow-md">
+            <ArrowDown className="text-primary" />
           </a>
         </div>
       </div>
