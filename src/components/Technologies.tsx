@@ -50,7 +50,7 @@ const Technologies = () => {
         </p>
         
         <div className="animate-on-scroll" style={{ animationDelay: "0.3s" }}>
-          <Carousel className="w-full max-w-4xl mx-auto">
+          <Carousel className="w-full max-w-4xl mx-auto" opts={{ loop: true }}>
             <CarouselContent>
               {technologies.map((tech, index) => (
                 <CarouselItem key={tech.name} className="md:basis-1/2 lg:basis-1/3">
