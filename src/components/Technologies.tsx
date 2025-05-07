@@ -49,7 +49,7 @@ const Technologies = () => {
           Here are the technologies I specialize in and work with regularly
         </p>
         
-        <div className="animate-on-scroll" style={{ animationDelay: "0.3s" }}>
+        <div className="animate-on-scroll mb-16" style={{ animationDelay: "0.3s" }}>
           <Carousel className="w-full max-w-4xl mx-auto" opts={{ loop: true }}>
             <CarouselContent>
               {technologies.map((tech, index) => (
